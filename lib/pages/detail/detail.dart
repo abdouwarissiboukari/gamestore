@@ -16,7 +16,7 @@ class DetailPage extends StatelessWidget {
           SliverPersistentHeader(
             delegate: DetailSliverDelegate(
               game: game,
-              expandedHeight: 360,
+              expandedHeight: 300,
               roundedContainerHeight: 30,
             ),
           ),

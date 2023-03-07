@@ -9,22 +9,22 @@ class CategorySection extends StatelessWidget {
     {
       'icon': Icons.track_changes_outlined,
       'color': const Color(0xFF605CF4),
-      'tiltle': 'Arcabe'
+      'title': 'Arcabe'
     },
     {
       'icon': Icons.sports_motorsports_outlined,
       'color': const Color(0xFFFC77A6),
-      'tiltle': 'Racing'
+      'title': 'Racing'
     },
     {
       'icon': Icons.casino_outlined,
       'color': const Color(0xFF4391FF),
-      'tiltle': 'Strategy'
+      'title': 'Strategy'
     },
     {
       'icon': Icons.sports_esports,
       'color': const Color(0xFF7182f2),
-      'tiltle': 'More'
+      'title': 'More'
     }
   ];
 
@@ -42,7 +42,7 @@ class CategorySection extends StatelessWidget {
         children: [
           Container(
             height: 140,
-            padding: const EdgeInsets.all(25),
+            padding: const EdgeInsets.only(top: 25, left: 10, right: 10),
             child: ListView.separated(
               scrollDirection: Axis.horizontal,
               itemBuilder: (_, index) => Column(
